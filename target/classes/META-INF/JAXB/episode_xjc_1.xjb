@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<bindings version="2.1" xmlns="http://java.sun.com/xml/ns/jaxb">
+  <!--
+
+Este archivo ha sido generado por la arquitectura JavaTM para la implantación de la referencia de enlace (JAXB) XML v2.3.2 
+Visite <a href="https://javaee.github.io/jaxb-v2/">https://javaee.github.io/jaxb-v2/</a> 
+Todas las modificaciones realizadas en este archivo se perderán si se vuelve a compilar el esquema de origen. 
+Generado el: 2021.05.03 a las 02:16:29 AM CDT 
+
+  -->
+  <bindings scd="x-schema::tns" xmlns:tns="http://localhost:8081/service">
+    <schemaBindings map="false">
+      <package name="localhost._8081.service"/>
+    </schemaBindings>
+    <bindings scd="tns:getAbilitiesRequest">
+      <class ref="localhost._8081.service.GetAbilitiesRequest"/>
+    </bindings>
+    <bindings scd="~tns:getAbilities">
+      <class ref="localhost._8081.service.GetAbilities"/>
+    </bindings>
+    <bindings scd="tns:getAbilitiesResponse">
+      <class ref="localhost._8081.service.GetAbilitiesResponse"/>
+    </bindings>
+    <bindings scd="tns:getBaseExperienceRequest">
+      <class ref="localhost._8081.service.GetBaseExperienceRequest"/>
+    </bindings>
+    <bindings scd="~tns:getBaseExperience">
+      <class ref="localhost._8081.service.GetBaseExperience"/>
+    </bindings>
+    <bindings scd="tns:getBaseExperienceResponse">
+      <class ref="localhost._8081.service.GetBaseExperienceResponse"/>
+    </bindings>
+    <bindings scd="tns:getIdRequest">
+      <class ref="localhost._8081.service.GetIdRequest"/>
+    </bindings>
+    <bindings scd="~tns:getId">
+      <class ref="localhost._8081.service.GetId"/>
+    </bindings>
+    <bindings scd="tns:getIdResponse">
+      <class ref="localhost._8081.service.GetIdResponse"/>
+    </bindings>
+    <bindings scd="tns:getLocationRequest">
+      <class ref="localhost._8081.service.GetLocationRequest"/>
+    </bindings>
+    <bindings scd="~tns:getLocation">
+      <class ref="localhost._8081.service.GetLocation"/>
+    </bindings>
+    <bindings scd="tns:getLocationResponse">
+      <class ref="localhost._8081.service.GetLocationResponse"/>
+    </bindings>
+  </bindings>
+</bindings>
+

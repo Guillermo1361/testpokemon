@@ -1,0 +1,106 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:tns="http://localhost:8081/service"
+	targetNamespace="http://localhost:8081/service"
+	elementFormDefault="qualified">
+
+	<xs:element name="getAbilitiesRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="pokemon" type="tns:getAbilities" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="getAbilitiesResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="json" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+
+	<xs:complexType name="getAbilities">
+		<xs:sequence>
+			<xs:element name="nombre" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+
+
+	<xs:element name="getBaseExperienceRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="pokemon" type="tns:getBaseExperience" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="getBaseExperienceResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="data" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+
+	<xs:complexType name="getBaseExperience">
+		<xs:sequence>
+			<xs:element name="nombre" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	
+	<xs:element name="getIdRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="pokemon" type="tns:getId" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="getIdResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="data" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+
+	<xs:complexType name="getId">
+		<xs:sequence>
+			<xs:element name="nombre" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+	
+	<xs:element name="getLocationRequest">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="pokemon" type="tns:getLocation" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+	<xs:element name="getLocationResponse">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:element name="data" type="xs:string" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+	
+	
+
+	<xs:complexType name="getLocation">
+		<xs:sequence>
+			<xs:element name="nombre" type="xs:string" />
+		</xs:sequence>
+	</xs:complexType>
+	
+
+</xs:schema>
